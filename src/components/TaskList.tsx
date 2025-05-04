@@ -32,7 +32,7 @@ useEffect(() => {
     if (tasks.length === 0) {   
     fetchTasks();
     }
-}); 
+}, []); 
 
 
 useEffect(() => {
